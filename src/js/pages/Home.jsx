@@ -1,5 +1,3 @@
-
-
 import { Button } from "../components/Button"
 import TitleMain from "../components/TitleMain"
 
@@ -18,7 +16,7 @@ export function Home() {
         { id: 3, name: "Monitor 4K", category: "Periféricos" },
         { id: 4, name: "Teclado Mecánico", category: "Periféricos" },
         { id: 5, name: "Samsung Galaxy S23", category: "Smartphones" },
-        { id: 6, name: "MacBook Air", category: "Computadoras" },
+        { id: 6, name: "MacBookcolocar el audio al hacer click Air", category: "Computadoras" },
         { id: 7, name: "Mouse Inalámbrico", category: "Periféricos" },
         { id: 8, name: "iPad Air", category: "Tablets" },
         { id: 9, name: "Sony WH-1000XM5", category: "Audio" },
@@ -37,12 +35,12 @@ export function Home() {
 
     return (
         <>
+            <h1 className="title-main">Hola ¿qué tal?</h1>
             <TitleMain
                 text={"Este es mi primer propiedad"}
                 classname={"text-danger"}
             />
-            <h1>Hola ¿qué tal?</h1>
-
+            {/* colocar el audio al hacer click */}
             <Button
                 text="Alert"
                 classname="btn btn-success mb-5"

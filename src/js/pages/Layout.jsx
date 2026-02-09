@@ -5,7 +5,7 @@ import { ExampleHooks } from "./ExampleHooks"
 // Context aquí lo vamos a usar
 export const Layout = () => {
     return (
-        // <Home />
-        <ExampleHooks />
+        <Home />
+        // <ExampleHooks />
     )
 }

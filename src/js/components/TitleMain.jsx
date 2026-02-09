@@ -1,6 +1,10 @@
+import "../../styles/components/titleMain.css"
+
 function TitleMain(props) {
     return (
-        <h1 className={props.classname}>{props.text}</h1>
+        <h1
+            className={`title-main`}>{props.text}
+        </h1>
     )
 }
 
